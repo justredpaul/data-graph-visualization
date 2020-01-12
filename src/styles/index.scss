@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --color-primary-bg: green;
+  --color-primary-text: white;
+
+  --color-secondary-bg: grey;
+  --color-secondary-text: white;
+}
+
+html, body, #app {
+  padding: 0;
+  margin: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+
+  font-family: sans-serif;
+}
+
+@import "../pages";
+@import "../components/ControlPanel";

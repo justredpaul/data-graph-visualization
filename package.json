@@ -1,0 +1,28 @@
+{
+  "name": "data-graph-visualization",
+  "version": "1.0.0",
+  "description": "Simple demo data visualization project with D3 and React",
+  "private": true,
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justredpaul/data-graph-visualization.git"
+  },
+  "author": "Paul Popov <justredpaul@ya.ru>",
+  "bugs": {
+    "url": "https://github.com/justredpaul/data-graph-visualization/issues"
+  },
+  "homepage": "https://github.com/justredpaul/data-graph-visualization#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.24.4"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2"
+  }
+}
