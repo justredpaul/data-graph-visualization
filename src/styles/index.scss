@@ -26,5 +26,6 @@ body {
   font-family: sans-serif;
 }
 
-@import "../pages";
+@import "../app";
 @import "../components/ControlPanel";
+@import "../components/Timeline";
