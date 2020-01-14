@@ -3,6 +3,7 @@ import React from 'react';
 export const ControlPanel = () => (
   <div className="control-panel">
     <form className="control-panel__form">
+      <h2>Data sources and graph type</h2>
       <div className="control-panel__layer">
         <label>
           <input type="radio" name="group" value="1" checked />
