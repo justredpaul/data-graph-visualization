@@ -5,4 +5,25 @@
   display: grid;
   grid-template-columns: 400px 1fr;
   grid-template-rows: 1fr 80px;
+
+  background-color: var(--c-bg-1);
+  color: var(--c-text-1);
+
+  &_light {
+    --c-text-1: #191b22;
+    --c-text-2: #3e2859;
+    --c-text-3: #f4f3f4;
+    --c-bg-1: #f4f3f4;
+    --c-bg-2: #d38787;
+    --c-bg-3: #9fa1ce;
+  }
+
+  &_dark {
+    --c-text-1: #f4f3f4;
+    --c-text-2: #2063e3;
+    --c-text-3: #f4f3f4;
+    --c-bg-1: #191b22;
+    --c-bg-2: #ca76b3;
+    --c-bg-3: #53cf9b;
+  }
 }
